@@ -126,8 +126,8 @@ void parse_tls_header(const char *data, size_t data_len, char *hostname)
           (unsigned char)data[4] + TLS_HEADER_LEN;
     data_len = MIN(data_len, len);
 
-    /* Check we received entire TLS record length */
-    if (data_len < len)
+    /* Check we received entire TLS record length and it's not too short to contain hostname */
+    if (data_len < len && data_len < 512)
         return;
 
     /* Handshake */
@@ -176,8 +176,6 @@ void parse_tls_header(const char *data, size_t data_len, char *hostname)
     len = ((unsigned char)data[pos] << 8) + (unsigned char)data[pos + 1];
     pos += 2;
 
-    if (pos + len > data_len)
-        return;
-
-    parse_extensions(data + pos, len, hostname);
+    // We only need the hostname, no need to check the whole record
+    parse_extensions(data + pos, MIN(data_len - pos, len), hostname);
 }
