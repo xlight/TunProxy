@@ -115,8 +115,10 @@ public class MainActivity extends AppCompatActivity implements
                 break;
             case R.id.action_show_about:
                 new AlertDialog.Builder(this)
-                    .setTitle(getString(R.string.app_name) + getVersionName())
-                    .setMessage(R.string.app_name)
+                    .setTitle(getString(R.string.app_name) + " v" + getVersionName())
+                    .setMessage("Open source at github.com"
+                            + "\n" + "fork: @cbotsikas/TunProxy"
+                            + "\n" + "based on: @raise-isayan/TunProxy")
                     .show();
                 break;
             default:
