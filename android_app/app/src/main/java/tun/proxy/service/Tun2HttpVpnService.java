@@ -26,7 +26,10 @@ import java.util.Set;
 import tun.proxy.MyApplication;
 import tun.proxy.R;
 import tun.utils.Util;
-
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+import tun.utils.CertificateUtil;
+import tun.utils.IPUtil;
 public class Tun2HttpVpnService extends VpnService {
     public static final String PREF_PROXY_HOST = "pref_proxy_host";
     public static final String PREF_PROXY_PORT = "pref_proxy_port";
@@ -180,6 +183,25 @@ public class Tun2HttpVpnService extends VpnService {
         String proxyHost = prefs.getString(PREF_PROXY_HOST, "");
         int proxyPort = prefs.getInt(PREF_PROXY_PORT, 0);
         if (proxyPort != 0 && !TextUtils.isEmpty(proxyHost)) {
+
+
+            if (!IPUtil.isValidIPv4Address(proxyHost)) {
+                if (android.os.Build.VERSION.SDK_INT > 9) {
+                    android.os.StrictMode.ThreadPolicy policy =
+                            new android.os.StrictMode.ThreadPolicy.Builder().permitAll().build();
+                    android.os.StrictMode.setThreadPolicy(policy);
+                }
+
+                try {
+                    proxyHost = InetAddress.getByName(proxyHost).getHostAddress();
+                    android.util.Log.e( "startNative: ", proxyHost);
+                }catch (UnknownHostException e){
+                    //hostEditText.setError(getString(R.string.enter_host));
+                    android.util.Log.e( "startNative: ", getString(R.string.enter_host));
+                    return ;
+                }
+            }
+
             jni_start(vpn.getFd(), false, 3, proxyHost, proxyPort);
 
             prefs.edit().putBoolean(PREF_RUNNING, true).apply();

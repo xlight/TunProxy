@@ -20,16 +20,19 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4730d89a-c9ac-4a77-be2e-da25bb12cf0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TunProxy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_app/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/app/build.gradle" afterDir="false" />
+    <list default="true" id="4730d89a-c9ac-4a77-be2e-da25bb12cf0b" name="Default Changelist" comment="support domain for proxyhost">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_app/app/src/main/java/tun/proxy/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/app/src/main/java/tun/proxy/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_app/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_app/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_app/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_app/app/src/main/java/tun/proxy/service/Tun2HttpVpnService.java" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/app/src/main/java/tun/proxy/service/Tun2HttpVpnService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +158,14 @@
       <option name="presentableId" value="Default" />
       <updated>1620584889588</updated>
     </task>
+    <task id="LOCAL-00001" summary="support domain for proxyhost">
+      <created>1620887454506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620887454506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +173,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -171,6 +194,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="support domain for proxyhost" />
+    <option name="LAST_COMMIT_MESSAGE" value="support domain for proxyhost" />
   </component>
   <component name="WindowStateProjectService">
     <state x="449" y="290" key="#Notifications" timestamp="1620584917828">
@@ -232,5 +257,9 @@
     </state>
     <state x="229" y="98" key="SettingsEditor/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620883430074" />
     <state x="229" y="98" key="SettingsEditor/0.25.1440.875/-480.-1415.2560.1415@0.25.1440.875" timestamp="1620588026144" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1620887490263">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620887490263" />
   </component>
 </project>
