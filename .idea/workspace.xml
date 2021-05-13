@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="parseAnd" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4730d89a-c9ac-4a77-be2e-da25bb12cf0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/TunProxy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_app/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_app/app/src/main/java/tun/proxy/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/app/src/main/java/tun/proxy/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_app/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_app/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_app/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/gradlew" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/android_app/build.gradle">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/333" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sJJivPJuO5zq9VWy8l3BOVmgGu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="ApkExportedModule" value="TunProxy" />
+    <property name="ExportedApkPath" value="$PROJECT_DIR$/TunProxy.apk" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RunManager" selected="Gradle./Users/xlight/StudioProjects/TunProxy/android_app/build.gradle (2)">
+    <configuration name="/Users/xlight/StudioProjects/TunProxy/android_app/build.gradle (1)" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/android_app/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="/Users/xlight/StudioProjects/TunProxy/android_app/build.gradle (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/android_app/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="/Users/xlight/StudioProjects/TunProxy/android_app/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/android_app/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="gradlew" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/android_app/gradlew" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/android_app" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle./Users/xlight/StudioProjects/TunProxy/android_app/build.gradle (2)" />
+        <item itemvalue="Shell Script.gradlew" />
+        <item itemvalue="Gradle./Users/xlight/StudioProjects/TunProxy/android_app/build.gradle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4730d89a-c9ac-4a77-be2e-da25bb12cf0b" name="Default Changelist" comment="" />
+      <created>1620584889588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620584889588</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="290" key="#Notifications" timestamp="1620584917828">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="449" y="290" key="#Notifications/0.25.1440.875/-480.-1415.2560.1415@0.25.1440.875" timestamp="1620584917828" />
+    <state x="208" y="41" key="#Project_Structure" timestamp="1620883476683">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="208" y="41" key="#Project_Structure/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620883476683" />
+    <state x="208" y="41" key="#Project_Structure/0.25.1440.875/-480.-1415.2560.1415@0.25.1440.875" timestamp="1620587925321" />
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620585106150">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/-480.-1415.2560.1415@0.25.1440.875" timestamp="1620585106150" />
+    <state x="100" y="125" width="1240" height="675" key="AVDManager" timestamp="1620883946416">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="100" y="125" width="1240" height="675" key="AVDManager/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620883946416" />
+    <state x="100" y="125" width="1240" height="675" key="AVDManager/0.25.1440.875/-480.-1415.2560.1415@0.25.1440.875" timestamp="1620586642285" />
+    <state width="1398" height="257" key="GridCell.Tab.0.bottom" timestamp="1620886589602">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="257" key="GridCell.Tab.0.bottom/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620886589602" />
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875/-480.-1415.2560.1415@0.25.1440.875" timestamp="1620588162392" />
+    <state width="1398" height="257" key="GridCell.Tab.0.center" timestamp="1620886589574">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="257" key="GridCell.Tab.0.center/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620886589574" />
+    <state width="1398" height="228" key="GridCell.Tab.0.center/0.25.1440.875/-480.-1415.2560.1415@0.25.1440.875" timestamp="1620588162391" />
+    <state width="1398" height="257" key="GridCell.Tab.0.left" timestamp="1620886589572">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="257" key="GridCell.Tab.0.left/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620886589572" />
+    <state width="1398" height="228" key="GridCell.Tab.0.left/0.25.1440.875/-480.-1415.2560.1415@0.25.1440.875" timestamp="1620588162386" />
+    <state width="1398" height="257" key="GridCell.Tab.0.right" timestamp="1620886589601">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="257" key="GridCell.Tab.0.right/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620886589601" />
+    <state width="1398" height="228" key="GridCell.Tab.0.right/0.25.1440.875/-480.-1415.2560.1415@0.25.1440.875" timestamp="1620588162392" />
+    <state width="1398" height="228" key="GridCell.Tab.1.bottom" timestamp="1620885195030">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="228" key="GridCell.Tab.1.bottom/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620885195030" />
+    <state width="1398" height="228" key="GridCell.Tab.1.center" timestamp="1620885195030">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="228" key="GridCell.Tab.1.center/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620885195030" />
+    <state width="1398" height="228" key="GridCell.Tab.1.left" timestamp="1620885195029">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="228" key="GridCell.Tab.1.left/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620885195029" />
+    <state width="1398" height="228" key="GridCell.Tab.1.right" timestamp="1620885195030">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1398" height="228" key="GridCell.Tab.1.right/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620885195030" />
+    <state x="229" y="98" key="SettingsEditor" timestamp="1620883430074">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="229" y="98" key="SettingsEditor/0.25.1440.875/-169.-1055.1920.1055@0.25.1440.875" timestamp="1620883430074" />
+    <state x="229" y="98" key="SettingsEditor/0.25.1440.875/-480.-1415.2560.1415@0.25.1440.875" timestamp="1620588026144" />
+  </component>
+</project>

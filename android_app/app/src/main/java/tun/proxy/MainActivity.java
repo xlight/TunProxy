@@ -29,7 +29,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
-
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import tun.proxy.service.Tun2HttpVpnService;
 import tun.utils.CertificateUtil;
 import tun.utils.IPUtil;
@@ -239,10 +240,7 @@ public class MainActivity extends AppCompatActivity implements
 
     private boolean parseAndSaveHostPort() {
         String hostPort = hostEditText.getText().toString();
-        if (!IPUtil.isValidIPv4Address(hostPort)) {
-            hostEditText.setError(getString(R.string.enter_host));
-            return false;
-        }
+
         String parts[] = hostPort.split(":");
         int port = 0;
         if (parts.length > 1) {
@@ -253,8 +251,26 @@ public class MainActivity extends AppCompatActivity implements
                 return false;
             }
         }
-        String[] ipParts = parts[0].split("\\.");
+
+        //hostEditText.setError(getString(R.string.enter_host));
+        //return false;
         String host = parts[0];
+        if (!IPUtil.isValidIPv4Address(hostPort)) {
+            if (android.os.Build.VERSION.SDK_INT > 9) {
+                android.os.StrictMode.ThreadPolicy policy =
+                        new android.os.StrictMode.ThreadPolicy.Builder().permitAll().build();
+                android.os.StrictMode.setThreadPolicy(policy);
+            }
+
+            try {
+                parts[0] = InetAddress.getByName(parts[0]).getHostAddress();
+                android.util.Log.e( "parseAndSaveHostPort: ", parts[0]);
+            }catch (UnknownHostException e){
+                hostEditText.setError(getString(R.string.enter_host));
+                return false;
+            }
+        }
+
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor edit = prefs.edit();
         edit.putString(Tun2HttpVpnService.PREF_PROXY_HOST, host);
